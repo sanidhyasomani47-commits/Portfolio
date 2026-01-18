@@ -1,162 +1,84 @@
-🚀 Sanidhya Somani – Portfolio Website
+# 🚀 Portfolio Website – Sanidhya Somani
 
-A personal portfolio website built to showcase my skills, projects, and experience as a Frontend / Full Stack Developer.
-The website includes a fully functional contact form powered by a Node.js backend.
+A modern, responsive **personal portfolio website** built using **React** and **Tailwind CSS**, with a **Node.js & Express backend** to handle contact form submissions via email.
 
-🌐 Live Demo
+This project showcases my skills, projects, and full-stack development knowledge in a clean and professional way.
 
-Frontend: https://your-portfolio.vercel.app
+---
 
-Backend API: https://your-backend.onrender.com
+## 🌐 Live Demo
 
-(Replace these links after deployment)
+- **Frontend:** https://your-portfolio.vercel.app  
+- **Backend API:** https://your-backend.onrender.com  
 
-📌 Features
+_(Replace links after deployment)_
 
-Responsive and modern UI using React and Tailwind CSS
+---
 
-Client-side routing with React Router
+## 📸 Screenshots
 
-Mobile-friendly navigation
+### Home Page
+![Home Page](./screenshots/home.png](https://github.com/sanidhyasomani47-commits/Portfolio/blob/44eb0578b40c1b903d6d53a770982be71d8d2922/port1.png))
 
-Contact form with:
+### About Page
+![About Page](./screenshots/about.png](https://github.com/sanidhyasomani47-commits/Portfolio/blob/44eb0578b40c1b903d6d53a770982be71d8d2922/port2.png))
 
-Form validation
+### Contact Page
+![Contact Page](./screenshots/contact.png](https://github.com/sanidhyasomani47-commits/Portfolio/blob/44eb0578b40c1b903d6d53a770982be71d8d2922/port3.png))
 
-Backend API integration
+---
 
-Email notifications using Nodemailer
+## ✨ Features
 
-Clean and scalable project structure
+- Fully responsive UI (mobile & desktop)
+- Modern design using Tailwind CSS
+- Client-side routing with React Router
+- Reusable components and clean structure
+- Contact form with:
+  - Validation
+  - Backend integration
+  - Email sending via Nodemailer
+- Smooth user experience
 
-🛠️ Tech Stack
-Frontend
+---
 
-React.js
+## 🛠 Tech Stack
 
-Tailwind CSS
+### Frontend
+- React.js
+- Tailwind CSS
+- React Router DOM
+- JavaScript (ES6+)
 
-React Router DOM
+### Backend
+- Node.js
+- Express.js
+- Nodemailer
+- REST API
 
-JavaScript (ES6+)
+### Tools & Platforms
+- Git & GitHub
+- Vercel (Frontend Deployment)
+- Render (Backend Deployment)
 
-Backend
+---
 
-Node.js
+## 📁 Project Structure
 
-Express.js
-
-Nodemailer
-
-REST APIs
-
-Tools & Platforms
-
-Git & GitHub
-
-Vercel (Frontend Deployment)
-
-Render (Backend Deployment)
-
-📁 Project Structure
+```txt
 Portfolio/
 ├── src/
 │   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
 │   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── About.jsx
-│   │   ├── Contact.jsx
 │   ├── layout/
-│   │   ├── MainLayout.jsx
 │   └── App.jsx
 │
 ├── contact-backend/
 │   ├── routes/
-│   │   └── contact.js
 │   ├── server.js
-│   ├── package.json
-│   └── .env
+│   └── package.json
 │
 ├── public/
+├── screenshots/
 ├── package.json
 └── README.md
-
-⚙️ Installation & Setup (Local)
-1️⃣ Clone the repository
-git clone https://github.com/sanidhyasomani47-commits/Portfolio.git
-cd Portfolio
-
-2️⃣ Frontend Setup
-npm install
-npm run dev
-
-
-Frontend runs on:
-
-http://localhost:5173
-
-3️⃣ Backend Setup
-cd contact-backend
-npm install
-node server.js
-
-
-Backend runs on:
-
-http://localhost:5000
-
-4️⃣ Environment Variables (Backend)
-
-Create a .env file inside contact-backend:
-
-EMAIL=yourgmail@gmail.com
-EMAIL_PASSWORD=your_app_password
-
-
-⚠️ Use a Gmail App Password, not your actual Gmail password.
-
-📬 Contact Form Workflow
-
-User fills out the contact form
-
-Frontend sends a POST request to backend
-
-Backend validates data
-
-Email is sent using Nodemailer
-
-User receives success or error feedback in UI
-
-🧠 What I Learned
-
-Building scalable React component architecture
-
-Handling form validation and UX feedback
-
-Creating REST APIs with Express
-
-Securely managing environment variables
-
-Deploying full-stack applications
-
-📈 Future Improvements
-
-Add MongoDB to store contact messages
-
-Add animations with Framer Motion
-
-Add spam protection (reCAPTCHA)
-
-Improve accessibility (ARIA roles)
-
-👤 Author
-
-Sanidhya Somani
-
-GitHub: https://github.com/sanidhyasomani47-commits
-
-LinkedIn: https://linkedin.com/in/your-profile
-
-Portfolio: https://your-portfolio.vercel.app
