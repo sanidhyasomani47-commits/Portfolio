@@ -11,6 +11,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// ✅ ROOT ROUTE (ADD THIS)
+app.get("/", (req, res) => {
+  res.send("Backend is running successfully 🚀");
+});
+
 // Routes
 app.use("/api/contact", contactRoutes);
 
