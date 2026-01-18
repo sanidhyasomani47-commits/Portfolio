@@ -18,13 +18,13 @@ _(Replace links after deployment)_
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](./screenshots/home.png](https://github.com/sanidhyasomani47-commits/Portfolio/blob/44eb0578b40c1b903d6d53a770982be71d8d2922/port1.png))
+![Home Page](https://github.com/sanidhyasomani47-commits/Portfolio/blob/main/port1.png?raw=true)
 
 ### About Page
-![About Page](./screenshots/about.png](https://github.com/sanidhyasomani47-commits/Portfolio/blob/44eb0578b40c1b903d6d53a770982be71d8d2922/port2.png))
+![About Page](https://github.com/sanidhyasomani47-commits/Portfolio/blob/main/port2.png?raw=true)
 
 ### Contact Page
-![Contact Page](./screenshots/contact.png](https://github.com/sanidhyasomani47-commits/Portfolio/blob/44eb0578b40c1b903d6d53a770982be71d8d2922/port3.png))
+![Contact Page](https://github.com/sanidhyasomani47-commits/Portfolio/blob/main/port3.png?raw=true)
 
 ---
 
