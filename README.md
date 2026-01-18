@@ -1,16 +1,162 @@
-# React + Vite
+🚀 Sanidhya Somani – Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built to showcase my skills, projects, and experience as a Frontend / Full Stack Developer.
+The website includes a fully functional contact form powered by a Node.js backend.
 
-Currently, two official plugins are available:
+🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: https://your-portfolio.vercel.app
 
-## React Compiler
+Backend API: https://your-backend.onrender.com
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+(Replace these links after deployment)
 
-## Expanding the ESLint configuration
+📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive and modern UI using React and Tailwind CSS
+
+Client-side routing with React Router
+
+Mobile-friendly navigation
+
+Contact form with:
+
+Form validation
+
+Backend API integration
+
+Email notifications using Nodemailer
+
+Clean and scalable project structure
+
+🛠️ Tech Stack
+Frontend
+
+React.js
+
+Tailwind CSS
+
+React Router DOM
+
+JavaScript (ES6+)
+
+Backend
+
+Node.js
+
+Express.js
+
+Nodemailer
+
+REST APIs
+
+Tools & Platforms
+
+Git & GitHub
+
+Vercel (Frontend Deployment)
+
+Render (Backend Deployment)
+
+📁 Project Structure
+Portfolio/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   ├── layout/
+│   │   ├── MainLayout.jsx
+│   └── App.jsx
+│
+├── contact-backend/
+│   ├── routes/
+│   │   └── contact.js
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+│
+├── public/
+├── package.json
+└── README.md
+
+⚙️ Installation & Setup (Local)
+1️⃣ Clone the repository
+git clone https://github.com/sanidhyasomani47-commits/Portfolio.git
+cd Portfolio
+
+2️⃣ Frontend Setup
+npm install
+npm run dev
+
+
+Frontend runs on:
+
+http://localhost:5173
+
+3️⃣ Backend Setup
+cd contact-backend
+npm install
+node server.js
+
+
+Backend runs on:
+
+http://localhost:5000
+
+4️⃣ Environment Variables (Backend)
+
+Create a .env file inside contact-backend:
+
+EMAIL=yourgmail@gmail.com
+EMAIL_PASSWORD=your_app_password
+
+
+⚠️ Use a Gmail App Password, not your actual Gmail password.
+
+📬 Contact Form Workflow
+
+User fills out the contact form
+
+Frontend sends a POST request to backend
+
+Backend validates data
+
+Email is sent using Nodemailer
+
+User receives success or error feedback in UI
+
+🧠 What I Learned
+
+Building scalable React component architecture
+
+Handling form validation and UX feedback
+
+Creating REST APIs with Express
+
+Securely managing environment variables
+
+Deploying full-stack applications
+
+📈 Future Improvements
+
+Add MongoDB to store contact messages
+
+Add animations with Framer Motion
+
+Add spam protection (reCAPTCHA)
+
+Improve accessibility (ARIA roles)
+
+👤 Author
+
+Sanidhya Somani
+
+GitHub: https://github.com/sanidhyasomani47-commits
+
+LinkedIn: https://linkedin.com/in/your-profile
+
+Portfolio: https://your-portfolio.vercel.app
